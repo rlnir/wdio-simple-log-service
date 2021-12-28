@@ -17,7 +17,6 @@ export default class SimpleLogService {
     constructor(serviceOptions: { fileName: string, folderName: string, timestamp: boolean }, capabilities: any, config: any, browser: WebdriverIO.Browser) {
         this.browser = browser
         this._serviceOptions = serviceOptions;
-        this._serviceOptions.fileName = "dfgdf.txt"
     }
 
     before(config: any, capabilities: any) {
